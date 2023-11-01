@@ -1,7 +1,8 @@
 import datetime
 import numpy as np
 
-from times import *
+from times import time_range
+from times import compute_overlap_time
 
 def test_given_input():
     large = time_range("2010-01-12 10:00:00", "2010-01-12 12:00:00")
